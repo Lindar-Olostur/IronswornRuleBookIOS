@@ -7,36 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9D7334982804786800B837D4 /* IronswornRuleBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7334972804786800B837D4 /* IronswornRuleBookApp.swift */; };
-		9D73349A2804786800B837D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7334992804786800B837D4 /* ContentView.swift */; };
-		9D73349C2804786900B837D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D73349B2804786900B837D4 /* Assets.xcassets */; };
-		9D73349F2804786900B837D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D73349E2804786900B837D4 /* Preview Assets.xcassets */; };
-		9D7334A92804786A00B837D4 /* IronswornRuleBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7334A82804786A00B837D4 /* IronswornRuleBookTests.swift */; };
-		9D7334B32804786A00B837D4 /* IronswornRuleBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7334B22804786A00B837D4 /* IronswornRuleBookUITests.swift */; };
-		9D7334B52804786A00B837D4 /* IronswornRuleBookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7334B42804786A00B837D4 /* IronswornRuleBookUITestsLaunchTests.swift */; };
+		9D1856BA281AD9AE00409D81 /* IronswornRuleBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7334972804786800B837D4 /* IronswornRuleBookApp.swift */; };
+		9D1856BB281AD9B300409D81 /* IronswornView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7334C1280577FB00B837D4 /* IronswornView.swift */; };
+		9D1856BC281AD9B700409D81 /* StarforgedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D07E58A280955D10041AA2F /* StarforgedView.swift */; };
+		9D1856BD281AD9BD00409D81 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D07E5882809545F0041AA2F /* TabView.swift */; };
+		9D1856BE281ADB1100409D81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D73349B2804786900B837D4 /* Assets.xcassets */; };
+		9D1856BF281ADB2100409D81 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D73349E2804786900B837D4 /* Preview Assets.xcassets */; };
+		9D1856C3281ADCFF00409D81 /* IronswornRuleBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7334972804786800B837D4 /* IronswornRuleBookApp.swift */; };
+		9D1856C4281ADD0200409D81 /* IronswornView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7334C1280577FB00B837D4 /* IronswornView.swift */; };
+		9D1856C5281ADD0400409D81 /* StarforgedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D07E58A280955D10041AA2F /* StarforgedView.swift */; };
+		9D1856C6281ADD0700409D81 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D07E5882809545F0041AA2F /* TabView.swift */; };
+		9D1856C7281ADD0E00409D81 /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = 9D07E58428094CA50041AA2F /* styles.css */; };
+		9D1856C8281ADD1300409D81 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 9D07E582280944CA0041AA2F /* main.js */; };
+		9D1856C9281ADD1600409D81 /* dice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9DBC74C0280A8EF0001F81D0 /* dice.mp3 */; };
+		9D1856CA281ADD1900409D81 /* IS.html in Resources */ = {isa = PBXBuildFile; fileRef = 9D07E580280944C30041AA2F /* IS.html */; };
+		9D1856CB281ADD1C00409D81 /* SF.html in Resources */ = {isa = PBXBuildFile; fileRef = 9D07E58628094E3D0041AA2F /* SF.html */; };
+		9D1856CC281ADD1F00409D81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D73349B2804786900B837D4 /* Assets.xcassets */; };
+		9D1856CD281ADD2200409D81 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D73349E2804786900B837D4 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		9D7334A52804786A00B837D4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9D73348C2804786800B837D4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9D7334932804786800B837D4;
-			remoteInfo = IronswornRuleBook;
-		};
-		9D7334AF2804786A00B837D4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9D73348C2804786800B837D4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9D7334932804786800B837D4;
-			remoteInfo = IronswornRuleBook;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		9D07E580280944C30041AA2F /* IS.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = IS.html; sourceTree = SOURCE_ROOT; };
+		9D07E582280944CA0041AA2F /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = SOURCE_ROOT; };
+		9D07E58428094CA50041AA2F /* styles.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
+		9D07E58628094E3D0041AA2F /* SF.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = SF.html; sourceTree = "<group>"; };
+		9D07E5882809545F0041AA2F /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		9D07E58A280955D10041AA2F /* StarforgedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarforgedView.swift; sourceTree = "<group>"; };
+		9D22909528DC8EBE009BE7C7 /* MacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacApp.swift; sourceTree = "<group>"; };
+		9D22909728DC8EBE009BE7C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9D22909928DC8EC0009BE7C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D22909C28DC8EC0009BE7C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9D22909E28DC8EC0009BE7C7 /* Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mac.entitlements; sourceTree = "<group>"; };
 		9D7334942804786800B837D4 /* IronswornRuleBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IronswornRuleBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D7334972804786800B837D4 /* IronswornRuleBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IronswornRuleBookApp.swift; sourceTree = "<group>"; };
-		9D7334992804786800B837D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9D73349B2804786900B837D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D73349E2804786900B837D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9D7334A42804786A00B837D4 /* IronswornRuleBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IronswornRuleBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +47,9 @@
 		9D7334AE2804786A00B837D4 /* IronswornRuleBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IronswornRuleBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D7334B22804786A00B837D4 /* IronswornRuleBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IronswornRuleBookUITests.swift; sourceTree = "<group>"; };
 		9D7334B42804786A00B837D4 /* IronswornRuleBookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IronswornRuleBookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9D7334C1280577FB00B837D4 /* IronswornView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IronswornView.swift; sourceTree = "<group>"; };
+		9D97707528068C6900280895 /* fromWeb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fromWeb.swift; sourceTree = "<group>"; };
+		9DBC74C0280A8EF0001F81D0 /* dice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dice.mp3; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,12 +77,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D22909428DC8EBE009BE7C7 /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				9D22909528DC8EBE009BE7C7 /* MacApp.swift */,
+				9D22909728DC8EBE009BE7C7 /* ContentView.swift */,
+				9D22909928DC8EC0009BE7C7 /* Assets.xcassets */,
+				9D22909E28DC8EC0009BE7C7 /* Mac.entitlements */,
+				9D22909B28DC8EC0009BE7C7 /* Preview Content */,
+			);
+			path = Mac;
+			sourceTree = "<group>";
+		};
+		9D22909B28DC8EC0009BE7C7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9D22909C28DC8EC0009BE7C7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		9D73348B2804786800B837D4 = {
 			isa = PBXGroup;
 			children = (
 				9D7334962804786800B837D4 /* IronswornRuleBook */,
 				9D7334A72804786A00B837D4 /* IronswornRuleBookTests */,
 				9D7334B12804786A00B837D4 /* IronswornRuleBookUITests */,
+				9D22909428DC8EBE009BE7C7 /* Mac */,
 				9D7334952804786800B837D4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,7 +122,15 @@
 			isa = PBXGroup;
 			children = (
 				9D7334972804786800B837D4 /* IronswornRuleBookApp.swift */,
-				9D7334992804786800B837D4 /* ContentView.swift */,
+				9D7334C1280577FB00B837D4 /* IronswornView.swift */,
+				9D07E58A280955D10041AA2F /* StarforgedView.swift */,
+				9D07E5882809545F0041AA2F /* TabView.swift */,
+				9D07E58428094CA50041AA2F /* styles.css */,
+				9D07E582280944CA0041AA2F /* main.js */,
+				9DBC74C0280A8EF0001F81D0 /* dice.mp3 */,
+				9D07E580280944C30041AA2F /* IS.html */,
+				9D07E58628094E3D0041AA2F /* SF.html */,
+				9D97707528068C6900280895 /* fromWeb.swift */,
 				9D73349B2804786900B837D4 /* Assets.xcassets */,
 				9D73349D2804786900B837D4 /* Preview Content */,
 			);
@@ -158,7 +193,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				9D7334A62804786A00B837D4 /* PBXTargetDependency */,
 			);
 			name = IronswornRuleBookTests;
 			productName = IronswornRuleBookTests;
@@ -176,7 +210,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				9D7334B02804786A00B837D4 /* PBXTargetDependency */,
 			);
 			name = IronswornRuleBookUITests;
 			productName = IronswornRuleBookUITests;
@@ -190,7 +223,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1330;
+				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
 					9D7334932804786800B837D4 = {
@@ -231,8 +264,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D73349F2804786900B837D4 /* Preview Assets.xcassets in Resources */,
-				9D73349C2804786900B837D4 /* Assets.xcassets in Resources */,
+				9D1856CD281ADD2200409D81 /* Preview Assets.xcassets in Resources */,
+				9D1856CC281ADD1F00409D81 /* Assets.xcassets in Resources */,
+				9D1856CB281ADD1C00409D81 /* SF.html in Resources */,
+				9D1856CA281ADD1900409D81 /* IS.html in Resources */,
+				9D1856C9281ADD1600409D81 /* dice.mp3 in Resources */,
+				9D1856C8281ADD1300409D81 /* main.js in Resources */,
+				9D1856C7281ADD0E00409D81 /* styles.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +285,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D1856BF281ADB2100409D81 /* Preview Assets.xcassets in Resources */,
+				9D1856BE281ADB1100409D81 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +297,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D73349A2804786800B837D4 /* ContentView.swift in Sources */,
-				9D7334982804786800B837D4 /* IronswornRuleBookApp.swift in Sources */,
+				9D1856C6281ADD0700409D81 /* TabView.swift in Sources */,
+				9D1856C5281ADD0400409D81 /* StarforgedView.swift in Sources */,
+				9D1856C4281ADD0200409D81 /* IronswornView.swift in Sources */,
+				9D1856C3281ADCFF00409D81 /* IronswornRuleBookApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +308,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D7334A92804786A00B837D4 /* IronswornRuleBookTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,25 +315,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D7334B32804786A00B837D4 /* IronswornRuleBookUITests.swift in Sources */,
-				9D7334B52804786A00B837D4 /* IronswornRuleBookUITestsLaunchTests.swift in Sources */,
+				9D1856BD281AD9BD00409D81 /* TabView.swift in Sources */,
+				9D1856BC281AD9B700409D81 /* StarforgedView.swift in Sources */,
+				9D1856BB281AD9B300409D81 /* IronswornView.swift in Sources */,
+				9D1856BA281AD9AE00409D81 /* IronswornRuleBookApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9D7334A62804786A00B837D4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9D7334932804786800B837D4 /* IronswornRuleBook */;
-			targetProxy = 9D7334A52804786A00B837D4 /* PBXContainerItemProxy */;
-		};
-		9D7334B02804786A00B837D4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9D7334932804786800B837D4 /* IronswornRuleBook */;
-			targetProxy = 9D7334AF2804786A00B837D4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		9D7334B62804786A00B837D4 /* Debug */ = {
@@ -402,6 +432,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -420,6 +451,7 @@
 				DEVELOPMENT_TEAM = 537KS4297U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IronswornRuleBook/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -431,7 +463,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Lin.IronswornRuleBook;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = IronswornRuleBook;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -449,6 +481,7 @@
 				DEVELOPMENT_TEAM = 537KS4297U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IronswornRuleBook/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -460,7 +493,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Lin.IronswornRuleBook;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = IronswornRuleBook;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -470,12 +503,12 @@
 		9D7334BC2804786A00B837D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 537KS4297U;
 				GENERATE_INFOPLIST_FILE = YES;
+				"INSTALL_PATH[sdk=*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Lin.IronswornRuleBookTests;
@@ -490,7 +523,6 @@
 		9D7334BD2804786A00B837D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -510,7 +542,6 @@
 		9D7334BF2804786A00B837D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 537KS4297U;
@@ -528,7 +559,6 @@
 		9D7334C02804786A00B837D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 537KS4297U;

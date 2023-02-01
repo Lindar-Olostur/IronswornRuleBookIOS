@@ -11,7 +11,7 @@ import SwiftUI
 struct IronswornRuleBookApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView()
         }
     }
 }
